@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CardViewSample.MainPage"
+    Title="CardView Sample"
+    xmlns:cardView="clr-namespace:CardViewSample.CustomControl;assembly=CardViewSample">
+	<ContentPage.Content>
+        <StackLayout Padding="10">
+              <cardView:CardView >
+                        <Label Text="Hello Card" HorizontalTextAlignment="Center" />
+                </cardView:CardView>
+            <cardView:CardView >
+                        <Label Text="More Card" HorizontalTextAlignment="Center" />
+                </cardView:CardView>
+            </StackLayout>
+	</ContentPage.Content>
+</ContentPage>
